@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin: 10px 0;
+}
+.stop-text{
+    display: flex;
+    justify-content: center;
+}
+.text{
+    font-size: 25px;
+    margin: 0 20px;
+}
+.stop-watchContainer{
+    display: flex;
+    justify-content: center;
+}
+.icons i{
+    margin: 13px 16px;
+    font-size: 31px;
+    cursor: pointer;
+}
