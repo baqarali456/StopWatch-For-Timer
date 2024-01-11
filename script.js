@@ -48,6 +48,10 @@ function stopWatch(){
 
 reset.addEventListener('click',()=>{
     clearInterval(interval);
+    if(play.classList.contains('fa-pause')){
+        play.classList.add('fa-play');
+        play.classList.remove('fa-pause');
+    }
     hr = 0;
     min = 0;
     sec = 0;
